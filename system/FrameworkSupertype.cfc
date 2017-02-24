@@ -128,7 +128,6 @@ component serializable="false" accessors="true"{
 	* @collectionMaxRows The max rows to iterate over the collection rendering with
 	* @collectionDelim  A string to delimit the collection renderings by
 	* @prePostExempt If true, pre/post view interceptors will not be fired. By default they do fire
-	* @name The name of the rendering region to render out, Usually all arguments are coming from the stored region but you override them using this function's arguments.
 	*/
 	function renderView(
 		view="",
